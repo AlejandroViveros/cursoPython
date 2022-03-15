@@ -1,5 +1,7 @@
 # funcion input para procesar entrada de usuario
-resultado = input("ingrese un mensaje: ")
-print("Valor proporcionado", resultado)
-print("Fin del programa")
-print("Hola")
+numero1 = int(input("escribe el primer numero: "))
+numero2 = int(input("escribe el segundo numero: "))
+resultado = numero1 + numero2
+print("la suma de los numeros es: " ,resultado)
+
+
