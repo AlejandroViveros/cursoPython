@@ -1,11 +1,4 @@
-#tipos booleanos
-miVariable = False
-print(miVariable)
-
-miVariable = 1 > 2
-print(miVariable)
-
-if miVariable:
-    print("El resultado fue verdadero")
-else:
-    print("El resultado es falso")
+# funcion input para procesar entrada de usuario
+resultado = input("ingrese un mensaje: ")
+print("Valor proporcionado", resultado)
+print("Fin del programa")
